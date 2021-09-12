@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./src/styles.css">
-    <link rel="stylesheet" href="./src/themes-page.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./src/styles.css">
+        <link rel="stylesheet" href="./src/themes-page.css">
 
-    <title>Calculator</title>
-</head>
-<body>
-    
-</body>
+        <title>Calculator</title>
+    </head>
+    <body>
+        
+        <div id="container">
+            <div class="calc-header">
+                <div class="header">
+                    <h1 class="title">calc</h1>
+                    <div class="theme">
+                        <span class="name-theme">Theme</span>
+
+                        <div class="options">
+                            <div class="numbers">
+                                <span>1</span>
+                                <span>2</span>
+                                <span>3</span>
+                            </div>
+                            
+                            <input 
+                                type="checkbox"
+                                >
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calc">
+                    <div class="display">
+                        <input type="text">
+                    </div>
+
+                    <div class="buttons-calc">
+                        <div class="line">
+                            <div class="btn btn-num">7</div>
+                            <div class="btn btn-num">8</div>
+                            <div class="btn btn-num">9</div>
+                            <div class="btn btn-del">DEL</div>
+                        </div>
+
+                        <div class="line">
+                            <div class="btn btn-num">4</div>
+                            <div class="btn btn-num">5</div>
+                            <div class="btn btn-num">6</div>
+                            <div class="btn btn-num">+</div>
+                        </div>
+
+                        <div class="line">
+                            <div class="btn btn-num">1</div>
+                            <div class="btn btn-num">2</div>
+                            <div class="btn btn-num">3</div>
+                            <div class="btn btn-num">-</div>
+                        </div>
+
+                        <div class="line">
+                            <div class="btn btn-num">.</div>
+                            <div class="btn btn-num">0</div>
+                            <div class="btn btn-num">/</div>
+                            <div class="btn btn-num">x</div>
+                        </div>
+
+                        <div class="line">
+                            <class class="btn btn-reset">RESET</class>
+                            <class class="btn btn-eq">=</class>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./src/scripts.js"></script>
+    </body>
 </html>
