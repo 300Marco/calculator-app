@@ -331,6 +331,14 @@ body {
         width: initial;
     }
 
+    .header {
+        align-items: center;
+    }
+
+    .title {
+        font-size: 3.3rem;
+    }
+
     .theme {
         font-size: 1.2rem;
     }
