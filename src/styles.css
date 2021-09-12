@@ -112,6 +112,15 @@ body {
     border-radius: 50%;
 }
 
+.radio label input[type=radio]:checked,
+.radio label input[type=radio]:checked:hover {
+    background-color: var(--btn-equation);
+}
+
+.radio label input[type=radio]:hover {
+    background-color: var(--btn-equation-shadow);
+}
+
 /* -------------- CALC-DISPLAY -------------- */
 .display {
     background-color: var(--display-background);
