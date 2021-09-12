@@ -220,6 +220,13 @@ body {
     border: none;
 }
 
+.remove-select {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .display input:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
