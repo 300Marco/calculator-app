@@ -156,7 +156,7 @@ body {
 
 /* -------------- BUTTONS -------------- */
 .buttons-calc {
-    background-color: var(--background-keyboard);
+    background-color: var(--keyboard-background);
     padding: 18px;
     border-radius: 8px;
 
@@ -183,46 +183,52 @@ body {
 }
 
 .btn-num {
-    background-color: var(--grayish-orange);
-    color: var(--color-dark-gray-blue);
-    box-shadow: 0px 3px 0px 0px var(--grayish-orange-shadow);
+    background-color: var(--btn-calculator);
+    color: var(--text-btn-calculator);
+    box-shadow: 0px 3px 0px 0px var(--btn-calculator-shadow);
 }
 
 .btn-num:hover {
-    background-color: var(--grayish-orange-shadow);
+    background-color: var(--btn-calculator-shadow);
     box-shadow: initial;
 }
 
+.btn-del, 
+.btn-reset {
+    color: var(--text-btn-clear);
+}
+
 .btn-del {
-    background-color: var(--dark-blue-key);
+    background-color: var(--btn-clear);
     font-size: 1.6rem;
-    box-shadow: 0px 3px 0px 0px var(--dark-blue-shadow);
+    box-shadow: 0px 3px 0px 0px var(--btn-clear-shadow);
 }
 
 .btn-del:hover {
-    background-color: var(--dark-blue-shadow);
+    background-color: var(--btn-clear-shadow);
     box-shadow: initial;
 }
 
 .btn-reset {
-    background-color: var(--dark-blue-key);
+    background-color: var(--btn-clear);
     font-size: 1.6rem;
-    box-shadow: 0px 3px 0px 0px var(--dark-blue-shadow);
+    box-shadow: 0px 3px 0px 0px var(--btn-clear-shadow);
 }
 
 .btn-reset:hover {
-    background-color: var(--dark-blue-shadow);
+    background-color: var(--btn-clear-shadow);
     box-shadow: initial;
 }
 
 .btn-eq {
-    background-color: var(--red-button);
+    background-color: var(--btn-equation);
     font-size: 1.6rem;
-    box-shadow: 0px 3px 0px 0px var(--dark-red-button);
+    box-shadow: 0px 3px 0px 0px var(--btn-equation-shadow);
+    color: var(--text-btn-equation);
 }
 
 .btn-eq:hover {
-    background-color: var(--dark-red-button);
+    background-color: var(--btn-equation-shadow);
     box-shadow: initial;
 }
 
