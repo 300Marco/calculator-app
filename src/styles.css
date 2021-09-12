@@ -79,7 +79,8 @@ body {
     background-color: var(--body-bg);
     font-family: 'Spartan', sans-serif;
     font-size: 3.2rem;
-    color: var(--white);
+    color: var(--text-white);
+    transition: background 0.2s linear, color 0.2s linear;
 }
 
 #container {
@@ -99,6 +100,7 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
+    color: var(--text-white);
 }
 
 .title {
@@ -113,6 +115,7 @@ body {
 
 .name-theme {
     margin-right: 12px;
+    margin-top: 15px;
     text-transform: uppercase;
 }
 
