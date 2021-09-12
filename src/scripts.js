@@ -54,6 +54,8 @@ function App() {
                 this.display.value = "Invalid";
             }
 
+            count = count.toLocaleString('en-US');
+
             this.display.value = String(count);
         } catch(e) {
             this.display.value = "Invalid";
