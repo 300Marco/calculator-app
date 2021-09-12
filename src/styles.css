@@ -9,21 +9,66 @@
 
 :root {
     --body-bg: hsl(222, 26%, 31%);
+    --keyboard-background: hsl(223, 31%, 20%);
     --display-background: hsl(224, 36%, 15%);
-    --background-keyboard: hsl(223, 31%, 20%);
-    --white: rgb(236, 236, 236);
 
     /* Keys */
-    --dark-blue-key: hsl(225, 21%, 49%);
-    --dark-blue-shadow: hsl(224, 28%, 35%);
-    --red-button: hsl(6, 63%, 50%);
-    --dark-red-button: hsl(6, 70%, 34%);
-    --grayish-orange: hsl(30, 25%, 89%);
-    --grayish-orange-shadow: hsl(28, 16%, 65%);
+    --btn-clear: hsl(225, 21%, 49%);
+    --btn-clear-shadow: hsl(224, 28%, 35%);
+    --btn-equation: hsl(6, 63%, 50%);
+    --btn-equation-shadow: hsl(6, 70%, 34%);
+    --btn-calculator: hsl(30, 25%, 89%);
+    --btn-calculator-shadow: hsl(28, 16%, 65%);
 
     /* text */
-    --color-dark-gray-blue: hsl(221, 14%, 31%);
-    --color-white: hsl(0, 0, 100%);
+    --text-btn-calculator: hsl(221, 14%, 31%);
+    --text-white: #fafafa;
+    --text-btn-clear: #fafafa;
+    --text-btn-equation: #fafafa;
+    --white: hsl(0, 0, 100%);
+}
+
+.theme-2:root {
+    --body-bg: hsl(0, 0%, 90%);
+    --keyboard-background: hsl(0, 5%, 81%);
+    --display-background: hsl(0, 0%, 93%);
+
+    /* Keys */
+    --btn-clear: hsl(185, 42%, 37%);
+    --btn-clear-shadow: hsl(185, 58%, 25%);
+    --btn-equation: hsl(25, 98%, 40%);
+    --btn-equation-shadow: hsl(25, 99%, 27%);
+    --btn-calculator: hsl(45, 7%, 89%);
+    --btn-calculator-shadow: hsl(35, 11%, 61%);
+
+    /* text */
+    --text-btn-calculator: hsl(60, 10%, 19%);
+    --text-white: hsl(60, 10%, 19%);
+    --text-btn-clear: #fafafa;
+    --text-btn-equation: #fafafa;
+    --white: hsl(0, 0, 100%);
+}
+
+.theme-3:root {
+    --body-bg: hsl(268, 75%, 9%);
+    --keyboard-background: hsl(268, 71%, 12%);
+    --display-background: hsl(268, 71%, 12%);
+
+    /* Keys */
+    --btn-clear: hsl(281, 89%, 26%);
+    --btn-clear-shadow: hsl(285, 91%, 52%);
+    --btn-equation: hsl(176, 100%, 44%);
+    --btn-equation-shadow: hsl(177, 92%, 70%);
+    --btn-calculator: hsl(268, 47%, 21%);
+    --btn-calculator-shadow: hsl(290, 70%, 36%);
+
+    /* text */
+    --text-btn-calculator: hsl(52, 100%, 62%);
+    --text-white: hsl(52, 100%, 62%);
+    --text-btn-clear: hsl(52, 100%, 62%);
+    --text-btn-equation: hsl(268, 47%, 21%);
+    --white: hsl(0, 0, 100%);
+
 }
 
 html {
