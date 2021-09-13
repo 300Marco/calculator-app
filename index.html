@@ -13,98 +13,105 @@
     <body>
         
         <div id="container">
-            <div class="calc-header">
-                <div class="header">
-                    <h1 class="title">calc</h1>
-                    <div class="theme">
-                        <span class="name-theme">Theme</span>
+            <div class="calculator-body">
+                <header>
+                    <div class="header">
+                        <h1 class="title">calc</h1>
+                        <div class="theme">
+                            <span class="name-theme">Theme</span>
 
-                        <div class="options">
-                            <div class="numbers">
-                                <span>1</span>
-                                <span>2</span>
-                                <span>3</span>
+                            <div class="options">
+                                <div class="numbers">
+                                    <span>1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                </div>
+                                
+                                <div class="input-option">
+                                    <div class="radio">
+                                        <label>
+                                            <input 
+                                                type="radio"
+                                                name="option"
+                                                id="theme-1"
+                                                aria-label="theme one"
+                                                checked
+                                            >
+                                        </label>
+                                    </div>
+
+                                    <div class="radio">
+                                        <label>
+                                            <input 
+                                                type="radio"
+                                                name="option"
+                                                aria-label="theme two"
+                                                id="theme-2";
+                                            >
+                                        </label>
+                                    </div>
+
+                                    <div class="radio">
+                                        <label>
+                                            <input 
+                                                type="radio"
+                                                name="option"
+                                                aria-label="theme tree"
+                                                id="theme-3";
+                                            >
+                                        </label>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <main>
+                    <div class="calc remove-select">
+                        <div class="display">
+                            <input type="text" class="text-display" aria-label="Display calculator"  onfocus="blur()" >
+                        </div>
+
+                        <div class="buttons-calc">
+                            <div class="line">
+                                <div class="btn btn-num">7</div>
+                                <div class="btn btn-num">8</div>
+                                <div class="btn btn-num">9</div>
+                                <div class="btn btn-del">DEL</div>
+                            </div>
+
+                            <div class="line">
+                                <div class="btn btn-num">4</div>
+                                <div class="btn btn-num">5</div>
+                                <div class="btn btn-num">6</div>
+                                <div class="btn btn-num">+</div>
+                            </div>
+
+                            <div class="line">
+                                <div class="btn btn-num">1</div>
+                                <div class="btn btn-num">2</div>
+                                <div class="btn btn-num">3</div>
+                                <div class="btn btn-num">-</div>
+                            </div>
+
+                            <div class="line">
+                                <div class="btn btn-num">.</div>
+                                <div class="btn btn-num">0</div>
+                                <div class="btn btn-num">/</div>
+                                <div class="btn btn-num">x</div>
+                            </div>
+
+                            <div class="line">
+                                <class class="btn btn-reset">RESET</class>
+                                <class class="btn btn-eq">=</class>
                             </div>
                             
-                            <div class="input-option">
-                                <div class="radio">
-                                    <label>
-                                        <input 
-                                            type="radio"
-                                            name="option"
-                                            id="theme-1"
-                                            checked
-                                        >
-                                    </label>
-                                </div>
-
-                                <div class="radio">
-                                    <label>
-                                        <input 
-                                            type="radio"
-                                            name="option"
-                                            id="theme-2";
-                                        >
-                                    </label>
-                                </div>
-
-                                <div class="radio">
-                                    <label>
-                                        <input 
-                                            type="radio"
-                                            name="option"
-                                            id="theme-3";
-                                        >
-                                    </label>
-                                </div>
-                            </div>
-
-
                         </div>
                     </div>
-                </div>
-
-                <div class="calc remove-select">
-                    <div class="display">
-                        <input type="text" class="text-display" onfocus="blur();">
-                    </div>
-
-                    <div class="buttons-calc">
-                        <div class="line">
-                            <div class="btn btn-num">7</div>
-                            <div class="btn btn-num">8</div>
-                            <div class="btn btn-num">9</div>
-                            <div class="btn btn-del">DEL</div>
-                        </div>
-
-                        <div class="line">
-                            <div class="btn btn-num">4</div>
-                            <div class="btn btn-num">5</div>
-                            <div class="btn btn-num">6</div>
-                            <div class="btn btn-num">+</div>
-                        </div>
-
-                        <div class="line">
-                            <div class="btn btn-num">1</div>
-                            <div class="btn btn-num">2</div>
-                            <div class="btn btn-num">3</div>
-                            <div class="btn btn-num">-</div>
-                        </div>
-
-                        <div class="line">
-                            <div class="btn btn-num">.</div>
-                            <div class="btn btn-num">0</div>
-                            <div class="btn btn-num">/</div>
-                            <div class="btn btn-num">x</div>
-                        </div>
-
-                        <div class="line">
-                            <class class="btn btn-reset">RESET</class>
-                            <class class="btn btn-eq">=</class>
-                        </div>
-                        
-                    </div>
-                </div>
+                </main>
             </div>
         </div>
 
