@@ -317,7 +317,7 @@ body {
     }
 }
 
-/* ---------- 480-381*/
+/* ---------- 480-351*/
 @media screen and (max-width: 480px) {
     #container {
         padding: 0 20px;
@@ -365,6 +365,30 @@ body {
     }
 
     .btn {
-        height: 55px;
+        height: 50px;
+        margin: 7px;
+    }
+}
+
+
+/* ---------- 350*/
+@media screen and (max-width: 350px) {
+    .display {
+        height: 68px;
+        padding: 3px 10px;
+        margin: 12px 0;
+    }
+
+    .buttons-calc {
+        padding: 8px;
+    }
+
+    .btn {
+        height: 36px;
+        margin: 6px;
+    }
+
+    .btn-num {
+        font-size: 2.2rem;
     }
 }
