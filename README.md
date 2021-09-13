@@ -36,7 +36,7 @@ Os usuários devem ser capazes de:
 
 ### **Links**
 
-- URL da solução: [Calculator App](https://www.frontendmentor.io/solutions/html-css-TxG-NNgg7)
+- URL da solução: [Calculator App](https://www.frontendmentor.io/solutions/calculator-app-using-html-css-and-constructor-function-in-javascript-lTo6hVv-y)
 - Site URL: [Calculator App](https://app-calculator-marco.netlify.app)
 
 ## Meu processo
@@ -54,9 +54,9 @@ Os usuários devem ser capazes de:
 ### **O que eu aprendi**
 
 Neste desafio pude fixar muitos conhecimentos em CSS3 e JavaScript.<br>
-Neste projeto pude ter uma primeira experiência com mudança de temas em minha página, trabalhei com campos de seleção **input radio** e personalizei eles, neste processo pude expandir meus conhecimentos com as possibilidades que temos em CSS. Continuando sobre os temas, eles são alterados assim que o input tem uma mudança(**change**) em seu estado para **checked** e, assim classes são adicionadas no **HTML**.
+Neste projeto pude ter uma primeira experiência com mudanças de temas em minha página, trabalhei com campos de seleção **input radio** e personalizei eles, neste processo pude expandir meus conhecimentos com as possibilidades que temos em CSS. Continuando sobre os temas, eles são alterados assim que o input tem uma mudança(**change**) em seu estado para **checked** e, assim classes são adicionadas no **HTML**.
 
-Essa aplicação optei por utilizar **Funções Construtoras** no JavaScript, assim pude fixar muitos conhecimentos que venho aprendendo ultimamente. Ao construir uma aplicação de calculadora, pude ver o tamanho do desafio que tinha pela frente, e não foi diferente. Aprendi sobre o método [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval), que fica responsável por realizar os cálculos na calculadora, facilitando muito o desenvolvimento da mesma. Utilizei para representar as separações de casas no formato (en-US) o método [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString).
+Essa aplicação optei por utilizar **Funções Construtoras** no JavaScript, assim pude fixar muitos conhecimentos que venho aprendendo ultimamente. Ao construir uma aplicação de calculadora, pude ver o tamanho do desafio que tinha pela frente, e não foi diferente. Apliquei conhecimentos sobre o método [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval), que fica responsável por realizar os cálculos na calculadora, facilitando muito o desenvolvimento da mesma. Utilizei para representar as separações de casas no formato (en-US) o método [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString).
 
 Método **eval()** utilizado para realizar os cálculos:
 
@@ -72,7 +72,7 @@ Para mais informações sobre o método **eval()** acesse a [documentação MDN]
 
 ### **Desenvolvimento continuado**
 
-Para as próximas soluções, pretendo adicionar mais JavaScript que é o que venho aprendendo e desenvolvendo ultimamente. Assim como também explorar mais técnicas CSS. Posso dizer que este projeto foi um misto de desafio, dificuldade, cansaço mental e diversão, além da sensação **CONSEGUI** no final.
+Para as próximas soluções, pretendo adicionar mais JavaScript que é o que venho aprendendo e desenvolvendo ultimamente. Assim como também explorar mais técnicas CSS. Posso dizer que este projeto foi um misto de desafio, dificuldade, cansaço mental e diversão, além da sensação de **CONSEGUI** no final.
 
 ### **Recursos úteis**
 
@@ -80,7 +80,7 @@ Para as próximas soluções, pretendo adicionar mais JavaScript que é o que ve
 - [Como Desativar a cópia de texto](https://www.webtutorial.com.br/como-desativar-a-copia-de-texto-apenas-com-css/) - Esse tutorial me ajudou a remover a seleção de textos na página.
 - [Forçando o teclado virtual do Smartphone a ocultar](https://www.ti-enxame.com/pt/javascript/html-mobile-forcando-o-teclado-virtual-ocultar/1066578799/) - Esse tópico me ajudou a ocultar o teclado do android e iphone, assim o usuário pode usar o meu teclado sem que o layout seja quebrado.
 - [Identificar uma string com JavaScript](https://pt.stackoverflow.com/questions/3021/como-posso-checar-se-uma-string-cont%C3%A9m-outra-em-javascript) - Esta solução me ajudou a Identificar a string ( **x** ) para que eu pudesse substituir por outro valor.
-- [Substituir uma string com JavaScript](https://www.devmedia.com.br/javascript-replace-substituindo-valores-em-uma-string/39176)
+- [Substituir uma string com JavaScript](https://www.devmedia.com.br/javascript-replace-substituindo-valores-em-uma-string/39176) - Esta solução me ajudou a substituir o ( **x** ) por ( * ) para que o método **eval()** funcionasse perfeitamente.
 
 ## Autor
 
