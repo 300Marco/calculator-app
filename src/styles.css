@@ -68,7 +68,6 @@
     --text-btn-clear: hsl(52, 100%, 62%);
     --text-btn-equation: hsl(268, 47%, 21%);
     --white: hsl(0, 0, 100%);
-
 }
 
 html {
@@ -92,7 +91,6 @@ body {
 }
 
 .calc-header {
-    /* border: 1px solid red; */
     width: 450px;
 }
 
@@ -322,9 +320,7 @@ body {
 /* ---------- 479*/
 @media screen and (max-width: 480px) {
     #container {
-        /* margin-top: 20px; */
         padding: 0 20px;
-        /* height: 90vh; */
     }
     
     .calc-header {
