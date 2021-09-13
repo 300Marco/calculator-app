@@ -56,9 +56,9 @@ Os usuários devem ser capazes de:
 Neste desafio pude fixar muitos conhecimentos em CSS3 e JavaScript.<br>
 Neste projeto pude ter uma primeira experiência com mudanças de temas em minha página, trabalhei com campos de seleção **input radio** e personalizei eles, neste processo pude expandir meus conhecimentos com as possibilidades que temos em CSS. Continuando sobre os temas, eles são alterados assim que o input tem uma mudança(**change**) em seu estado para **checked** e, assim classes são adicionadas no **HTML**.
 
-Essa aplicação optei por utilizar **Funções Construtoras** no JavaScript, assim pude fixar muitos conhecimentos que venho aprendendo ultimamente. Ao construir uma aplicação de calculadora, pude ver o tamanho do desafio que tinha pela frente, e não foi diferente. Apliquei conhecimentos sobre o método [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval), que fica responsável por realizar os cálculos na calculadora, facilitando muito o desenvolvimento da mesma. Utilizei para representar as separações de casas no formato (en-US) o método [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString).
+Essa aplicação optei por utilizar **Funções Construtoras** no JavaScript, assim pude fixar muitos conhecimentos que venho aprendendo ultimamente. Ao construir uma aplicação de calculadora, pude ver o tamanho do desafio que tinha pela frente, e não foi diferente. Apliquei conhecimentos sobre a função [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval), que fica responsável por realizar os cálculos na calculadora, facilitando muito o desenvolvimento da mesma. Utilizei para representar as separações de casas no formato (en-US) o método [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString).
 
-Método **eval()** utilizado para realizar os cálculos:
+Função **eval()** utilizada para realizar os cálculos:
 
 ```JavaScript
 let count = eval(this.display.value);
@@ -68,7 +68,7 @@ Método **toLocaleString()** utilizado para as separações das casas:
 count = count.toLocaleString('en-US');
 ```
 
-Para mais informações sobre o método **eval()** acesse a [documentação MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval).
+Para mais informações sobre a função **eval()** acesse a [documentação MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval).
 
 ### **Desenvolvimento continuado**
 
