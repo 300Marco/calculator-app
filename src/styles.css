@@ -317,7 +317,7 @@ body {
     }
 }
 
-/* ---------- 479*/
+/* ---------- 479-381*/
 @media screen and (max-width: 480px) {
     #container {
         padding: 0 20px;
@@ -369,4 +369,17 @@ body {
     }
 }
 
+/* ---------- 380*/
+@media screen and (max-width: 380px) {
+    .display input {
+        padding: 0;
+        font-size: 3.5rem;
+    }
+
+    .btn {
+        margin: 6px;
+        font-size: 2.2rem;
+        height: 36px;
+    }
+}
 
